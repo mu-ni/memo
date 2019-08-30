@@ -1,3 +1,5 @@
+Permutations and combinations
+
 Tries, Arrays, Hash Tables
 key-value stores
 
@@ -79,3 +81,10 @@ Design of an RSS aggregator
 Find a specific value in a binary search tree.
 
 crawler爬虫  
+
+Time series and probabilities
+Predicting CTR, deep dive into trees and logistic regression. The interviewer was amazingly nice and I felt like I was exchanging with a future colleague instead.
+DFS on a matrix, classic leetcode
+Logistic regression
+Statistical testing for non gaussian distributions
+Trees  
