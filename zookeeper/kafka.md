@@ -25,7 +25,7 @@ topic下有partition，partition下有segment，segment是实际的一个个文�
 Producer & Consumer：消息生产者和消费者
 Broker：组成Kafka集群的每个节点
 Topic：相当于传统消息系统MQ中的一个队列queue
-Partition：topic物理上的分组
+Partition：topic物理上的分组(保证有序)
 Segment：partition物理上由多个segment组成
 Partition replica：副本数目。不能大于kafka broker节点的数目。一个Leader, 其余follower
 * 必须指定是发送到哪个topic，但是不需要指定topic下的哪个partition
