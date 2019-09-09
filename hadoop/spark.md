@@ -12,3 +12,8 @@ Spark可以根据应用的复杂程度，分割成更多的计算阶段（stage�
 Hadoop MapReduce 简单粗暴地根据 shuffle 将大数据计算分成 Map 和 Reduce 两个阶段，然后就算完事了。
 而 Spark 更细腻一点，将前一个的 Reduce 和后一个的 Map 连接起来，当作一个阶段持续计算，形成一个更加优雅、高效地计算模型，虽然其本质依然是 Map 和 Reduce。但是这种多个计算阶段依赖执行的方案可以有效减少对 HDFS 的访问，减少作业的调度执行次数，因此执行速度也更快。
 并且和 Hadoop MapReduce 主要使用磁盘存储 shuffle 过程中的数据不同，Spark 优先使用内存进行数据存储，包括 RDD 数据。除非是内存不够用了，否则是尽可能使用内存， 这也是 Spark 性能比 Hadoop 高的另一个原因。
+
+#### Map & FlatMap
+["hello you","hello me","hello word"]
+- Map: hello you, hello me, hello word
+- FlatMap: hello, you, hello, me, hello, word
