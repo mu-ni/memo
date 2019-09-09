@@ -60,6 +60,11 @@ Field[] fields = clazz.getDeclaredFields();
 Spring boot: Convention is more important than configuration.
 
 ## GC
+1. Mark-Sweep
+2. Copy(Young, Eden:survivor:survivor 8:1:1)
+3. Mark-Compact(Old)
+Generational Collection
+
 ## Decorator
 ## AOP/IOC
 ## dynamic programming

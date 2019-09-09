@@ -28,3 +28,5 @@ Yarn 进行资源分配的单位是容器（Container）
 
 框架在架构设计上遵循一个重要的设计原则叫“依赖倒转原则”(IOC - Inversion of Control)
 依赖倒转原则是高层模块不能依赖低层模块，它们应该共同依赖一个抽象，这个抽象由高层模块定义，由低层模块实现
+
+Je ne parle pas bien français maintenant

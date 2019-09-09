@@ -74,5 +74,5 @@ more than triple of average salary in Beijing
 
 #### QUESTION
 what's the hiring process?
-how many engineers in Data Science team Paris?
+how many engineers in Data Science team Paris currently?
 which kind of engineer are you looking for?
