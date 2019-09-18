@@ -60,19 +60,9 @@ Now have several opportunities
 I'd like to find a suitable job first, then go to Paris
 would't like to resign before finding a suitable job
 
-#### ABOUT UBISOFT
-Actually, don't play video games
-But many of my friends like playing games
-Knew Ubisoft when talking with them
-also famous in China
-
-Great company& international company
-
 #### SALARY
 Not Exact number, because Currency not same. Euro & RMB
 more than triple of average salary in Beijing
 
 #### QUESTION
 what's the hiring process?
-how many engineers in Data Science team Paris currently?
-which kind of engineer are you looking for?
