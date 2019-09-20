@@ -1,3 +1,6 @@
+Yahoo，Google 的 3 篇大数据论文（Bigtable/Map- Reduce/GFS）开启了一个大数据的时代
+Yahoo 开源的 Hadoop 系列（HDFS、HBase 等），基本上垄断了开源界的大数据处理
+
 # HDFS
 
 1. DataNode: 存储、读写data block
