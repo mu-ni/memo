@@ -16,7 +16,10 @@ Because I am base in BJ currently, can we just interview online? Or do I need to
 Visa starting from mid-november this year
 
 
+### about 4pd
+
 Innovation Engineering Group as R&D engineer
 responsible for ML workflow & server-side development
+We provide the bottom layer abilities for our business line
 JAVA & Python
 Our system is distributed, we also use big-data related technologies like hadppp & spark
