@@ -66,3 +66,4 @@ more than triple of average salary in Beijing
 
 #### QUESTION
 what's the hiring process?
+how many engineers of this team?
