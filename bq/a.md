@@ -61,7 +61,7 @@ R – Results - positive; quantifiable; what you learned; what you would do diff
 6. "What is the angle between the hour hand and minute hand in an analog clock?"
 7. "How do you detect whether or not a word is a palindrome?"
 
-8. "Do you know our CEO? How do you pronounce his name?"
+8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 9. "Here's a string with numbers from 1-250 in random order, but it's missing one number. How will you find the missed number?"
 
 10. "Are you willing to work on your feet for ten hours, four days a week?"
