@@ -1,5 +1,9 @@
 1. Why amazon?
+    * the culture of Amazon attracts me a lot
+    * many talented engineers are working here
+
 2. Why this position in Vancouver?
+
 
 1. Why Amazon
 2. List three strengths
