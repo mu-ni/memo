@@ -1,16 +1,6 @@
 What is AWS?
 Since early 2006, AWS has provided companies of all sizes an information technology services platform in the cloud. With AWS, software developers can easily requisition compute, storage, database, and other Internet-based services to power their applications. Developers have the flexibility to choose any development platform or programming environment that makes sense for the problems they’re trying to solve. Since developers only pay for what they use, with no upfront capital costs and low operating costs, AWS is the most cost-effective way to deliver computational resources, stored data, and other applications to end users.
-AWS Beijing Region Operated by Sinnet
-AWS has partnered with Beijing Sinnet Technology Co., Ltd.(Sinnet) who is the service operator and provider for AWS China (Beijing) Region based out of Beijing and adjacent areas.
 
-AWS Ningxia Region Operated by NWCD
-AWS has partnered with Ningxia Western Cloud Data Technology Co., Ltd. (NWCD) who is the service operator and provider for AWS China (Ningxia) Region based out of Ningxia.
-
-
-
-AWS services in China enable business to reduce up-front expenses, avoid long-term commitments, and manage the scaling challenges associated with maintaining and operating their own IT information technology services.
-
-Learn more about using AWS in China »
 Benefits of AWS
 AWS benefits hundreds of thousands of customers in China and around the globe with a secure, reliable, and scalable information technology services platform.
 no-upfront-investment
