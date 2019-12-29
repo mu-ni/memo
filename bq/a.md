@@ -13,11 +13,44 @@ We’re willing to take risks – innovating requires failing.
 
 1. Why Amazon
 2. List three strengths
+My daily work is well planned, I never make myself very busy when deadline is approaching
+Willing to innovate, try new technologies, propose new ideas to solve problems(i18n)
+willing to share knowledge with others and learn from others
+I still keep learning every day.
+I don't want to waste time, At least, I should make myself a litter better/improvement than yesterday.
+
+
 3. A piece of critical feedback I received from the others
+Good partner at work. I often come up with new ideas
+
+I have a lot of novel ideas, maybe not workable, but I'd like to share with others
+As Female engineer, I pay more attention to details than others, Easier to find Hard-to-detect bugs
+
 4. A time working on a project and the results exceeded the goals
+Current project, from scratch
+innovation project, 50% failed. But luckily, we succeed.
+Help our data scientist and deliver team -> reduce time to deliver
+use same code(SQL) for batch-compute and realtime-compute
+
 5. Sometimes when teammates are not "qualified"
+I don't think anyone is not qualified, just because this task is not suitable for him
+I think it is necessary to make someone familiar with code/workflow firstly, not just coding but don't understand the code's background.
+Everyone has his own  strengths and weak points
+
 6. Obstacles met during a project
+some years ago. I haven't realized the importance of testing.(united tests)
+the result is, when I fix a but and merge the PR, another bug will be found soon
+At that moment, it is hard to fix a bug without introduce new bugs
+It is the biggest lesson I've learned during my previous work.
+After that, no matter how urgent the deadline is, I must write unit tests before the PR
+I will never allow this to happen again
+
 7. What I want to improve most
+hard to refuse others, hard to say no. It takes a lot of my personal time after work
+sometimes their requirements may beyond my work scope
+For example, I already provide the complete document for them, but it seems they don't want to read our docs at all
+They just want me to help them hand by hand, it waste me a lot of time
+make work-life balance
 
 * 14 leadership principles
 Customer Obsession: “Start with the customer & work backwards”
