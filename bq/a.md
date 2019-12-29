@@ -4,6 +4,12 @@
 
 2. Why this position in Vancouver?
 
+* Amazon culture
+Our Leadership Principles empower us to
+be owners and innovators
+while maintaining our customer centricity.
+We’re willing to take risks – innovating requires failing.
+
 
 1. Why Amazon
 2. List three strengths
