@@ -3,6 +3,10 @@
     * many talented engineers are working here
 
 2. Why this position in Vancouver?
+first job - learn how to develop in production not just demo, how to cooperate with others
+currenr job - learn how machine learning works and how distributed system works
+next - try sth more challenging, improve myself and try my best to satisfied more customers' requirements
+
 
 * Amazon culture
 Our Leadership Principles empower us to
@@ -38,6 +42,27 @@ I think it is necessary to make someone familiar with code/workflow firstly, not
 Everyone has his own  strengths and weak points
 
 6. Obstacles met during a project
+customer they don't want to upgrade version, but wanna use new version's features
+I really understand their situation, but it is hard for us to maintain 2 versions of the same product
+Gray test
+if the new version
+until they fully trust our new system works well
+
+
+
+requirements from data scientist and deliver team
+conflict between them
+more functions for better model effect & as simple as possible to learn quickly
+they are both correct
+pareto principle, focus on the 20% of main requirements
+trade off
+impossible perfect product at the beginning, should keep iterating
+
+
+My task is depends on others, I have to wait for them before they finish their task
+But after they finish their task, I don't have enough time to develop and test
+
+
 some years ago. I haven't realized the importance of testing.(united tests)
 the result is, when I fix a but and merge the PR, another bug will be found soon
 At that moment, it is hard to fix a bug without introduce new bugs
@@ -81,16 +106,31 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 
 1. Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
+that is exactly my current project
+I started my current project one year ago from scratch
+notice that it is hard for deliver team to deliver a model to customer smoothly
+pyspark - java, cost at least one week for development, with many errors
+We want to develop a system that make model on production without any modification
+we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
+Keep constraints - can not develop a product perfectly at the first version - keep iteration
 
 2. Give me an example of something you tried to accomplish but failed.
+not only support our colleague, but attract more developers anywhere in the world
+we want to make a standard for AI application development workflow
+Last quarter, We planed to attract at least 100 developers to use our system
+But, you know, we have to support our internal delivery team firstly,
+and we don't have enough energy to promote and operate our product
+it is a pity, we hope that we can do it this year
 
 3. Give me an example of a time when you showed initiative.
+
 
 4. Give me an example of a time when you motivated others.
 
 5. Tell me about a time when you delegated a project effectively.
 
 6. Tell me about a time when you coached someone.
+We have one fresh-out colleague in our team,
 
 7. When have you used your fact finding skills to solve a problem?
 
@@ -98,21 +138,40 @@ R – Results - positive; quantifiable; what you learned; what you would do diff
 1. "Who was your most difficult customer?"
 2. "How would you introduce AWS in an elevator pitch?"
 3. "What is the worst mistake you ever made?"
+UT
 4. "If your direct manager was instructing you to do something you disagreed with, how would you handle it?"
+I will discuss with him firstly before I staring to do
+Normally both of us are correct, Just because we have different points of view
+It is normal that people have disagreements
+the most important thing is listen carefully to his opinions and share my opinions with him
+Because our goals are the same, and I am sure we will reach an agreement on at least one point
+We should start from this point and try to reach the final agreement
+
 
 5. "Describe what Human Resource means to you."
+
+
 6. "What is the angle between the hour hand and minute hand in an analog clock?"
+
 7. "How do you detect whether or not a word is a palindrome?"
 
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 9. "Here's a string with numbers from 1-250 in random order, but it's missing one number. How will you find the missed number?"
+bucket sort
 
 10. "Are you willing to work on your feet for ten hours, four days a week?"
+Yes I'd like to have a try
+Our society is developing, I think we should open for any kind of working mode
+work-life balance
+
 11. "Do you think you'll reach a point where you storm off the floor and never return?"
+
 12. "Would you tell on a employee for stealing?"
 13. "How would you solve problems if you were from Mars?"
-14. "How do you persuade people?"
+14. "How do you persuade说服 people?"
 15. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
+
+
 16. "Tell the story of the last time you had to apologize to someone."
 17. "Walk me through how Amazon Kindle books would be priced."
 
