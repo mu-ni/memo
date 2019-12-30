@@ -10,6 +10,7 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 - Walk us through a time when you helped a customer through a difficult process
 - Who was your most difficult customer?
+  no. data scientist, their requirements is more close to customer, reasonable. in production environment, they are more experienced
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
 - Tell the story of the last time you had to apologize to someone.
@@ -22,7 +23,20 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
 - Tell me about a time when you had to leave a task unfinished.
 - Tell me about a time when you had to work on a project with unclear responsibilities.
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
+  that is exactly my current project
+  I started my current project one year ago from scratch
+  notice that it is hard for deliver team to deliver a model to customer smoothly
+  pyspark - java, cost at least one week for development, with many errors
+  We want to develop a system that make model on production without any modification
+  we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
+  Keep constraints - can not develop a product perfectly at the first version - keep iteration
 - Give me an example of something you tried to accomplish but failed.
+  not only support our colleague, but attract more developers anywhere in the world
+  we want to make a standard for AI application development workflow
+  Last quarter, We planed to attract at least 100 developers to use our system
+  But, you know, we have to support our internal delivery team firstly,
+  and we don't have enough energy to promote and operate our product
+  it is a pity, we hope that we can do it this year
 - Give me an example of a time when you showed initiative.
 
 
@@ -52,7 +66,11 @@ Leaders are never done learning and always seek to improve themselves. They are 
 Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.
 - Tell me about a time when you had to deal with a poor performer on your team.
 - Tell me about a time when you mentored/coached someone.
+  We have one fresh-out colleague in our team,
 - Sometimes when teammates are not "qualified"
+  I don't think anyone is not qualified, just because this task is not suitable for him
+  I think it is necessary to make someone familiar with code/workflow firstly, not just coding without understanding the background.
+  Everyone has his own strengths and weak points
 - Give me an example of a time when you motivated others.
 - What would you do if you saw someone being unsafe at work?
 
@@ -97,6 +115,10 @@ Leaders operate at all levels, stay connected to the details, audit frequently, 
 - Tell me about a time when you had to dive deep into the data and the results you achieved.
 - Give me two examples of when you did more than what was required in any job experience.
 - A time working on a project and the results exceeded the goals
+  Current project, from scratch
+  innovation project, 50% failed. But luckily, we succeed.
+  Help our data scientist and deliver team -> reduce time to deliver
+  use same code(SQL) for batch-compute and realtime-compute
 
 
 13. Have Backbone; Disagree and Commit（敢于挑战权威，敢于对自己的决策负责）
@@ -106,6 +128,13 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
 - Tell me about an unpopular decision of yours.
 - Tell me about a time when you had to step up and disagree with a team members approach.
 - If your direct manager was instructing you to do something you disagreed with, how would you handle it?
+  Although most of time he is correct
+  I will discuss with him firstly before I staring to do
+  Normally both of us are correct, Just because we have different points of view
+  It is normal that people have disagreements
+  the most important thing is listen carefully to his opinions and share my opinions with him
+  Because our goals are the same, and I am sure we will reach an agreement on at least one point
+  We should start from this point and try to reach the final agreement
 - A piece of critical批评 feedback I received from the others
 
 
@@ -115,6 +144,5 @@ Leaders focus on the key inputs for their business and deliver them with the rig
 - Obstacles met during a project
 - What is the most difficult situation you have ever faced in your life? How did you handle it?
 - By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
-- What is the most difficult situation you have ever faced in your life? How did you handle it?
 - Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
 - Couldn’t finish tasks before deadline?
