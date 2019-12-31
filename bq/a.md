@@ -92,7 +92,8 @@ I didn't make any mistake with serious consequence
 技术选型争论，over-designed
 db denormalization
 i18n, 2 set of mapping file front&back end
-I felt a strong sense of success/I am so proud of it
-totally new to it
 Estimate workload, 20% buffer in case of emergency
 avro & protobuf
+submit a patent about fedb
+With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
+can not perfect at first
