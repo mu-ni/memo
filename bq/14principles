@@ -83,6 +83,8 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
   just want to fix the specific bug asap, no UT
   old bugs appear again and again, biggest mistake I've ever made
   Now I pay more attention to UT, every function shoud have its own ut bofore merge to the main branch
+  With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
+  
 - tell me about a time when you had to work with incomplete data or information
   research project, kaggle dataset, focus on the workflow
   how to make ML workflow more simple for developers
@@ -146,6 +148,7 @@ Thinking small is a self-fulfilling prophecy. Leaders create and communicate a b
   simplify the workflow, save a lot of time and resource
   already used in 60% of projects within deliver teams
   I felt a strong sense of success/I am so proud of it
+  submit a patent about fedb
 
 - Tell me about a time when you went way beyond the scope of the project and delivered.
   Not limited by customers' requirements, sometimes customers are not clear what they want
@@ -237,11 +240,30 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
 14. Deliver Results（按时交付高质量产品，遇到挫折挺身而出，对产品有追求，不满足于现状）
 Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
 - Tell me about a time where you overcame an obstacle and delivered results./Obstacles met during a project
-  totally new to it, information limited, not much information from internet
+  parquet, totally new to it, information limited, not much information from internet
   more time to research in advance, read source code
-  connect author via email, ask questions, communication is inefficient
+  connect blog author via email, ask questions, communication is inefficient
+  finally, using parquet in our project succeed, improve performace
 
 - What is the most difficult situation you have ever faced in your life? How did you handle it?
+  to be honest, I don't have real difficult situation in my life, but confused situation
+  before my graduation 4 years ago. Not sure working in paris or BJ
+  technologies in china developed very fast
+  I'd like to learn more and improve myself when I was young, so started first job in china
+  But now, already 4 years, try sth challenging and new
+  I am curious about the working atmosphere in great global companies, like amazon
+  so today I am here
+
 - By providing an example, tell me when you have had to handle a variety of assignments任务. Describe the results.
-- Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
+  list priority
+  pareto principle
+  do not block others
+  finish one by one
+
 - Couldn’t finish tasks before deadline?
+  Never happened in recent years
+  When I did my internship 4 years ago. Can not estimate workload very well
+  I was blocked, feel afraid to ask someone for help, even didn't tell my boss
+  When I didn't finish my task in deadline, I realized that this is not correct
+  Now, daily work plan and todo list
+  This situation will never happen again

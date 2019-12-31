@@ -80,7 +80,8 @@ R – Results - positive; quantifiable; what you learned; what you would do diff
 
 2. "How would you introduce AWS in an elevator pitch?"
 3. "What is the worst mistake you ever made?"
-I didn't make any mistake with serious consequence
+I didn't make any mistake with serious result
+
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 15. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
 17. "Walk me through how Amazon Kindle books would be priced."
@@ -91,9 +92,3 @@ I didn't make any mistake with serious consequence
 
 技术选型争论，over-designed
 db denormalization
-i18n, 2 set of mapping file front&back end
-Estimate workload, 20% buffer in case of emergency
-avro & protobuf
-submit a patent about fedb
-With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
-can not perfect at first
