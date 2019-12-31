@@ -80,8 +80,7 @@ R – Results - positive; quantifiable; what you learned; what you would do diff
 
 2. "How would you introduce AWS in an elevator pitch?"
 3. "What is the worst mistake you ever made?"
-UT
-5. "Describe what Human Resource means to you."
+I didn't make any mistake with serious consequence
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 15. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
 17. "Walk me through how Amazon Kindle books would be priced."
@@ -94,5 +93,6 @@ UT
 db denormalization
 i18n, 2 set of mapping file front&back end
 I felt a strong sense of success/I am so proud of it
-most challenge
 totally new to it
+Estimate workload, 20% buffer in case of emergency
+avro & protobuf

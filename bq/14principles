@@ -9,48 +9,77 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 1. Customer Obsession（顾客至上，从客户角度出发获取信任，关注竞争者，但是更关心客户）
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 - Walk us through a time when you helped a customer through a difficult process
+  consistency between online and offline
+
 - Who was your most difficult customer?
   no. data scientist, their requirements is more close to customer, reasonable. in production environment, they are more experienced
+
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+  Never, before the starting, clarify more than once. Sometimes can not meet all expections, list the priority
+
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+  Can not satisfy all, but satisfy most of users' requirements
+  Pareto principle(80/20 rule) - for many events, about 80% of the effects come from 20% of the causes
+
 - Tell the story of the last time you had to apologize to someone.
-- Who was your most difficult customer?
+  apologize to QA, for unit tests
 
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
-- Give me an example of when you took a risk and it failed.
 - Tell me about a time when you had to leave a task unfinished.
+  re-organization, transfer project, make sure they are totally understand, keep contact
+
 - Tell me about a time when you had to work on a project with unclear responsibilities.
+  delta compute, compute once -> continious computation
+  totally new, unclear working scope, waiting for each other, befause of poor communication
+  developers base in both BJ and SH, propose - daily meeting, 5min
+
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
-  that is exactly my current project
-  I started my current project one year ago from scratch
-  notice that it is hard for deliver team to deliver a model to customer smoothly
-  pyspark - java, cost at least one week for development, with many errors
-  We want to develop a system that make model on production without any modification
-  we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
-  Keep constraints - can not develop a product perfectly at the first version - keep iteration
-- Give me an example of something you tried to accomplish but failed.
+  Collect information from users
+  Propose at least 2 workable solutions, trade off
+  According to the real production environment, [time first] or space first?
+  prioritize the functions, implement the most important feature first
+  Collect feedbacks from users
+
+- Give me an example of something you tried to accomplish/took a risk but failed.
+  long-term value
   not only support our colleague, but attract more developers anywhere in the world
   we want to make a standard for AI application development workflow
   Last quarter, We planed to attract at least 100 developers to use our system
   But, you know, we have to support our internal delivery team firstly,
   and we don't have enough energy to promote and operate our product
   it is a pity, we hope that we can do it this year
-- Give me an example of a time when you showed initiative.
 
+- Give me an example of a time when you showed initiative.
+  propose FEDB to deliver teams/data scientist, it works well
+  1. let them know our project, promote our project to them, they sopported me a lot
+  2. collect requirements and advices from them
+  3. let them have a try our project, and try to reduce their workdload and time
+  4. It works very well current, success innovation
 
 3. Invent and Simplify（创新的发明，寻找简化方法。从任何地方寻找新的想法。在做新的事情时，可以接受一段时间内存在误解）
 Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
-- Tell me a time when you created an innovative product.(用框架)
 - Tell me about a time when you gave a simple solution to a complex problem.
-- Tell me about a time when you invented something.
-- Most challenging project?
+  1. Intellij -> lombok(annotation), fluent style, simple and clear
+  2. zookeeper retry & timeout: easy to make mistakes -> curator
+  3. http -> rpc
+
+- Tell me about a time when you invented something/Tell me a time when you created an innovative product/Most challenging project?
+  that is exactly my current project, major contributor
+  I started my current project one year ago from scratch
+  idea from my manager, last 6 months, only one developer(me), recently, aother 2 developers joined
+  notice that it is hard for deliver team to deliver a model to customer smoothly
+  pyspark - java, cost at least one week for development, with many errors
+  We want to develop a system that make model on production without any modification
+  we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
+  Keep constraints - can not develop a product perfectly at the first version - keep iteration
 
 
 4. Are Right, A Lot（领导者有更强的判断力和直觉，接受不同的观点）
 Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 - tell me about a time when you are wrong
+  time first, 
 - tell me about a time when you had to work with incomplete data or information
 - When have you used your fact finding skills to solve a problem?
 
