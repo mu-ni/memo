@@ -36,15 +36,7 @@ We’re willing to take risks – innovating requires failing.
 - As Female engineer, I pay more attention to details than others, Easier to find Hard-to-detect bugs
 class loading sequence in classpath, maven dependency tree
 
-
-6. Obstacles met during a project
-customer they don't want to upgrade version, but wanna use new version's features
-I really understand their situation, but it is hard for us to maintain 2 versions of the same product
-Gray test
-if the new version
-until they fully trust our new system works well
-
-- Introduce yourself, introduce projects(难点，克服，个人贡献)
+3. Introduce yourself, introduce projects(难点，克服，个人贡献)
 
 
 requirements from data scientist and deliver team
@@ -79,9 +71,6 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 
 2. "How would you introduce AWS in an elevator pitch?"
-3. "What is the worst mistake you ever made?"
-I didn't make any mistake with serious result
-
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 15. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
 17. "Walk me through how Amazon Kindle books would be priced."

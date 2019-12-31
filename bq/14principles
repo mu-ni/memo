@@ -80,11 +80,12 @@ Leaders expect and require innovation and invention from their teams and always 
 4. Are Right, A Lot（领导者有更强的判断力和直觉，接受不同的观点）
 Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 - tell me about a time when you are wrong
+  Actually, I didn't make serious mistake in my work, But I have learned some lessons
   just want to fix the specific bug asap, no UT
   old bugs appear again and again, biggest mistake I've ever made
   Now I pay more attention to UT, every function shoud have its own ut bofore merge to the main branch
   With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
-  
+
 - tell me about a time when you had to work with incomplete data or information
   research project, kaggle dataset, focus on the workflow
   how to make ML workflow more simple for developers
