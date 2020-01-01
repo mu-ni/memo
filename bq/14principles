@@ -86,6 +86,13 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
   Now I pay more attention to UT, every function shoud have its own ut bofore merge to the main branch
   With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
 
+  some years ago. I haven't realized the importance of testing.(united tests)
+  the result is, when I fix a but and merge the PR, another bug will be found soon
+  At that moment, it is hard to fix a bug without introduce new bugs
+  It is the biggest lesson I've learned during my previous work.
+  After that, no matter how urgent the deadline is, I must write unit tests before the PR
+  I will never allow this to happen again
+
 - tell me about a time when you had to work with incomplete data or information
   research project, kaggle dataset, focus on the workflow
   how to make ML workflow more simple for developers
@@ -170,7 +177,7 @@ Speed matters in business. Many decisions and actions are reversible and do not 
   should discuss first, if really necessary and I’d like to fix this problem
   if time limited, try the simplest workable solution first, modify the origin code as less as possible
   maybe not perfect, should keep iterating and make it more complete
-  impossible to develop a perfect product at first
+  impossible to develop a perfect product at the beginning
 
 
 - Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?

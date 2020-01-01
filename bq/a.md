@@ -39,30 +39,12 @@ class loading sequence in classpath, maven dependency tree
 3. Introduce yourself, introduce projects(难点，克服，个人贡献)
 
 
-requirements from data scientist and deliver team
-conflict between them
-more functions for better model effect & as simple as possible to learn quickly
-they are both correct
-pareto principle, focus on the 20% of main requirements
-trade off
-impossible perfect product at the beginning, should keep iterating
-
-
-My task is depends on others, I have to wait for them before they finish their task
-But after they finish their task, I don't have enough time to develop and test
-
-
-some years ago. I haven't realized the importance of testing.(united tests)
-the result is, when I fix a but and merge the PR, another bug will be found soon
-At that moment, it is hard to fix a bug without introduce new bugs
-It is the biggest lesson I've learned during my previous work.
-After that, no matter how urgent the deadline is, I must write unit tests before the PR
-I will never allow this to happen again
-
 7. What I want to improve most
 hard to refuse others, hard to say no
-For example, I already provide the complete document for them, but it seems they don't want to read our docs at all
-They just want me to help them hand by hand, it took me a lot of time
+For example, I'd like to help others, but sometimes it takes me a lot of time
+I have daily work plan every day, it will affect my wroking process
+well documented, save time
+IM（Instant messaging） chat group, every one can ask and anwser questions in this group
 make work-life balance
 
 S – Situation - background info
@@ -71,10 +53,16 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 
 2. "How would you introduce AWS in an elevator pitch?"
+    PAAS - Platform as a Service
+    For engineers, easy to build development&production environment
+    For dev&ops, easy to maintain and monitoring
+    For boss, save a lot of money and time, time is money
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 15. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
-17. "Walk me through how Amazon Kindle books would be priced."
 20. "How would you improve Amazon's website?"
+    it is good enough, responsive web design
+    combine with my current research, customize recommandation
+    not for users, but for engineers, easy to develop, simplify the workflow
 25. "Design an online payment system."
 29. "Which Amazon leadership principle do you resonate most with?"
 
