@@ -8,30 +8,44 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 
 1. Customer Obsession（顾客至上，从客户角度出发获取信任，关注竞争者，但是更关心客户）
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
-- Walk us through a time when you helped a customer through a difficult process
+- Walk us through a time when you helped a customer through a difficult progress
+-
+  For a long time in the past
   consistency between online and offline
 
 - Who was your most difficult customer?
   no. data scientist and delivery team
-  their requirements is more close to customer, reasonable. in production environment, they are more experienced
+  1. append data to DB one by one and continuously
+  2. map with useless key
+  At the begining, hard to understand these requirerments
+  their requirements is more close to customer, reasonable
 
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
-  Never, before the starting, clarify more than once. Sometimes can not meet all expections, list the priority
+  Never, before the starting, clarify the requirement.
+  Do not just image what it should be, but discuss
+  review the progress everyweek/everyday
+  Make sure on the correct way, or change the direction as early as possible
 
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
-  Can not satisfy all, but satisfy most of users' requirements
   Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
-
+  Can not satisfy all, list the priority, just satisfy the most important requirements
+  Don't need to build a perfect product at the begining, a good product should keep iterating
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
 - Tell me about a time when you had to leave a task unfinished.
-  re-organization, transfer project, make sure they are totally understand, keep contact
+  This rarely happens
+  re-organization, transfer project,
+  make sure they are totally understand
+  keep contact, IM chat group
 
 - Tell me about a time when you had to work on a project with unclear responsibilities.
-  delta compute, compute once -> continious computation
-  totally new, unclear working scope, waiting for each other, befause of poor communication
-  developers base in both BJ and SH, propose - daily meeting, 5min
+  delta compute, compute once -> continious computation, data generated continuously
+  unclear working scope, waiting for each other,
+  poor task assignment, poor communication
+  developers base in both BJ and SH
+  propose - daily meeting, 5min
+
 
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
   Collect information from users
@@ -40,16 +54,20 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
   prioritize the functions, implement the most important feature first
   Collect feedbacks from users
 
-- Give me an example of something you tried to accomplish/took a risk but failed/Tell me about a time when you took a calculated risk.
-  long-term value
-  not only support our colleague, but attract more developers anywhere in the world
+- Give me an example of something you tried to accomplish/took a risk but failed
+- Tell me about a time when you took a calculated risk.
+  don't use long-term value for short-term results
+  not for internal use only, but attract more external developers
   we want to make a standard for AI application development workflow
-  Last quarter, We planed to attract at least 100 developers to use our system
-  But, you know, we have to support our internal delivery team firstly,
+  Last quarter, planed to attract at least 100 developers to use our system
+  But, we have to support many projects firstly, higher priority
   and we don't have enough energy to promote and operate our product
   it is a pity, we hope that we can do it this year
 
 - Give me an example of a time when you showed initiative.
+  FEQL: like SQL for both batch&realtime feature computing
+  RTIDB: time sencitive scenariao
+  initially, just feql, try to simplify the workflow, fedb
   propose FEDB to delivery teams/data scientist, it works well
   1. let them know our project, promote our project to them, they sopported me a lot
   2. collect requirements and advices from them
@@ -61,9 +79,11 @@ Leaders expect and require innovation and invention from their teams and always 
 - Tell me about a time when you gave a simple solution to a complex problem.
   1. Intellij -> lombok(annotation), fluent style, simple and clear
   2. zookeeper retry & timeout: easy to make mistakes -> curator
-  3. http -> rpc
+  3. http -> rpc, grpc/brpc, protobuf
 
-- Tell me about a time when you invented something/Tell me a time when you created an innovative product/Most challenging project?
+- Tell me about a time when you invented something
+- Tell me a time when you created an innovative product
+- Most challenging project?
   that is exactly my current project, major contributor
   I started my current project one year ago from scratch
   idea from my manager, he worked with delivery team for a long time, and know their requirements
@@ -92,6 +112,8 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
   I will never allow this to happen again
 
 - tell me about a time when you had to work with incomplete data or information
+- Tell me about a time where you overcame an obstacle and delivered results.
+- Obstacles met during a project
   research project, kaggle dataset, focus on the workflow
   how to make ML workflow more simple for developers
   totally new to it, not too much information about field
@@ -102,12 +124,13 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
 5. Learn and Be Curious（保持学习，提升自己，对新事物好奇，乐于探索）
 Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.
 - How do you find the time to stay inspired, acquire new knowledge, innovate in your work?
+  innovation is a part of my work, IEG- innovating engineering group
   logical regression/random forest
   async call, completableFuture(jdk8)
   infoQ, blogs
   redis
-  CICD
-  leetcode, basic knowledge for every engineers, for high quality/performance code
+  CICD embeded with gitlab
+  high quality/performance code
 
 
 6. Hire and Develop the Best（善于发现人才，指导他人）
@@ -119,28 +142,33 @@ Leaders raise the performance bar with every hire and promotion. They recognize 
   code review for every function & recommand some useful plugins for him, lombok
   Now his code looks better
 
-- Sometimes when teammates are not "qualified"/Tell me about a time when you had to deal with a poor performer on your team.
+- Sometimes when teammates are not "qualified"
+- Tell me about a time when you had to deal with a poor performer on your team.
   I don't think anyone is not qualified, just because this task is not suitable for him
-  I think it is necessary to make someone familiar with code/workflow firstly, not just coding without understanding the background.
-  Everyone has his own strengths and weak points
+  Try to understand his interests and the fields he is good at
+  not just coding without any preparation
+  Everyone has his own strengths and weak points, put him in the suitable place
 
 - Give me an example of a time when you motivated others.
+  fresh-graduate colleague in our team, I am his mentor
+  he is not confident with himself
   He doesn't want to try any complex tasks, just does easy task
-  I guide him to have a try and give him enough confidence, share knowledge with him
+  I guide him to have a try, share knowledge with him
 
 7. Insist on the Highest Standards（坚持最高标准，交付高质量产品）
 Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
 - Tell me about a time when you could have stopped working but persisted.
-  improve performance
-  1. Access zk node -> keep in memory, init form zk, reduce zk access
-  2. Two options, sync call&Async call, completableFuture
+  After the system works, improve performance
+  1. Access zk node -> keep in memory, init form zk, reduce zk access, reduce the stress of zk
+  2. Two options, sync call&Async call, completableFuture, jdk8
 
 - Tell me about a time when you couldn’t meet your own expectations on a project.
-  no, maybe limited time, demo version, not fully tested
-  But release version, have to meet my expectations, keep high standard, deliver stable product
+  time or quality?
+  keep high standard, deliver not only workable, but stable product
 
 - Tell me about a time when a team member didn’t meet your expectations on a project.
-  no, keep in touch, follow his process
+  progress or his quality?
+  no, keep in touch, follow his progress
   can't not finished is acceptable, re-calculate the workflow
   can't stand anyone told me he cannot finish at the last minute
   for quality - more suitable tasks
@@ -148,9 +176,11 @@ Leaders have relentlessly high standards — many people may think these standar
 8. Think Big（大胆思考，激发成果）
 Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
 - Tell me about a time when you proposed a new business.
+  FEDB
 
 - Tell me about your proudest professional achievement.
   FEDB, release to real-time prediction without any modification
+  expose our abilities to more customers
   simplify the workflow, save a lot of time and resource
   already used in 60% of projects within delivery teams
   I felt a strong sense of success/I am so proud of it
@@ -158,29 +188,28 @@ Thinking small is a self-fulfilling prophecy. Leaders create and communicate a b
 
 - Tell me about a time when you went way beyond the scope of the project and delivered.
   Not limited by customers' requirements, sometimes customers are not clear what they want
-  Sometimes the process is complex, but they are already used to this process
-  We will give them one more choice and let them know there is another process which is more simple and clear
+  Sometimes the progress is complex, but they are already used to this progress
+  We will give them one more choice and let them know there is another progress which is more simple and clear
   try to think from the customers' point of view, and dig into their requirements
-  Not just, by boss ask me do with it, But, it is really useful so I would like to use it
+  Not just, my boss ask me to use it, But, it is really useful so I would like to use it
 
 9. Bias for Action（速度至关重要，决定和行动有时可逆，做好风险评估）
 Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
 - Describe how you would handle a busy situation where three people are waiting for help from you.
   list the priority, calcutate risk in advance, try to minimize the risk
   If someone is waiting for me, I'll do it first, try not to block others work
+  IM chat group, help each other
 
 - Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
-  write to my todo list
   don't think just start doing by myslef is a good choice, maybe it is by design
   should discuss first, if really necessary and I’d like to fix this problem
-  if time limited, try the simplest workable solution first, modify the origin code as less as possible
-  maybe not perfect, should keep iterating and make it more complete
-  impossible to develop a perfect product at the beginning
+  QPS is hight, fix code not thread safe, add locks
 
 
 - Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+  Maybe he is busy in sth, do not disturb his progress
   prepare enough by myself before, do not ask stupid questions
-  don't just wait for his response, schedule a concentrated time, half an hour, for asking questions
+  don't just wait for his response, book a short time of him, 10mins, for asking questions
 
 
 10. Frugality（争取事半功倍）
@@ -188,15 +217,12 @@ Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, 
 - Tell me about a time where you thought of a clever new way to save money for the company.
   fedb, online-offline consistency
 
-- Tell me about a time when you had to work with limited time or resources.
-  list the priority
-  pareto principle
-
 - Tell me about a time when you delegated a project effectively.高效上线项目
-  todo list
+  Assign tasks properly
   communication is very important
-  review process everyday
-  finish as planed, no delay, no major bugs
+  review progress everyday
+  delta-compute, not finished yet, but milestones
+  finish as planed, no delay, no major bugs -> is success
 
 11. Earn Trust（获取信任，乐于倾听，尊重他人，多从自身找原因）
 Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best.
@@ -207,28 +233,31 @@ Leaders listen attentively, speak candidly, and treat others respectfully. They 
 12. Dive Deep（关注细节，及时review，及早发现）
 Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
 - Tell me about a time when you had to dive deep into the data and the results you achieved.
-  parquet reader, column based storage
-  not very popular, not much tutorials about this
-  read source code and collect info from stackoverflow
+  ML workflow research, not much tutorials about this
+  kaggle, dataset, participated in competations
+  product - fedb, every engineer can build an AI application in one day
 
-- A time working on a project and the results exceeded the goals/Give me two examples of when you did more than what was required in any job experience.
+- A time working on a project and the results exceeded the goals
+- Give me two examples of when you did more than what was required in any job experience.
   Current project, from scratch, just an innovation
   innovation project, 50 percent chance to fail. But luckily, we succeed/səkˈsiːd/
   Help our data scientist and delivery team -> reduce time to deliver
   use same code(SQL) for batch-compute and realtime-compute
+  firstly just want to support 1 project, but now 5,6 projects use fedb
 
 
 13. Have Backbone; Disagree and Commit（敢于挑战权威，敢于对自己的决策负责）
 Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
-- Tell me about the most difficult interaction互动 you had at work./Tell me about a time when you did not accept the status quo现状.
+- Tell me about the most difficult interaction互动 you had at work.
+- Tell me about a time when you did not accept the status quo现状.
   previous work, after reorganization, colleagues don't accept new technologies
   I try to share latest knowledge with them but it seems they are not interested
   I discuss my ideas with my manager, he support me a lot
   We can use popular technologies in new project(jboss - spring-boot)
 
 - Tell me about a time when you had to step up and disagree with a team members approach.
-  alway use old technologies they familar with
-  don't like to learn and accept new technologies
+  1. framework, over-designed - native code, not import unnecessary dependencies, not make project complicates
+  2. db denormalization, get result quickly - redundant data
 
 - If your direct manager was instructing you to do something you disagreed with, how would you handle it?
   Although most of time he is correct
@@ -239,18 +268,8 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
   Because our goals are the same, and I am sure we will reach an agreement on at least one point
   We should start from this point and try to reach the final agreement
 
-- A piece of critical批评 feedback I received from the others
-  Actually no
-  But not satisfied with my self, sometime hard to say no, should improve
-
 14. Deliver Results（按时交付高质量产品，遇到挫折挺身而出，对产品有追求，不满足于现状）
 Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
-- Tell me about a time where you overcame an obstacle and delivered results./Obstacles met during a project
-  parquet, totally new to it, information limited, not much information from internet
-  more time to research in advance, read source code
-  connect blog author via email, ask questions, communication is inefficient
-  finally, using parquet in our project succeed, improve performace
-
 - What is the most difficult situation you have ever faced in your life? How did you handle it?
   to be honest, I don't have real difficult situation in my life, but confused situation
   before my graduation 4 years ago. Not sure working in paris or BJ
@@ -261,10 +280,9 @@ Leaders focus on the key inputs for their business and deliver them with the rig
   so today I am here
 
 - By providing an example, tell me when you have had to handle a variety of assignments任务. Describe the results.
+- Tell me about a time when you had to work with limited time or resources.
   list priority
   pareto principle
-  do not block others
-  finish one by one
 
 - Couldn’t finish tasks before deadline?
   Never happened in recent years
@@ -272,4 +290,5 @@ Leaders focus on the key inputs for their business and deliver them with the rig
   I was blocked, feel afraid to ask someone for help, even didn't tell my boss
   When I didn't finish my task in deadline, I realized that this is not correct
   Now, daily work plan and todo list
+  I can estimate the workload very well
   This situation will never happen again

@@ -34,7 +34,7 @@ We’re willing to take risks – innovating requires failing.
   - server-side development and ML workflow research
 
 6. What I want to improve most
-  - hard to refuse others, hard to say no
+  - hard to reject others, hard to say no
   - Actually, I'd like to help others, but sometimes it takes me a lot of time
   - I have daily work plan every day, it will disrupt my wroking process
   - IM（Instant messaging）chat group, every one can ask and anwser questions in this group
@@ -69,7 +69,3 @@ We’re willing to take risks – innovating requires failing.
     look for opportunities to use what I recently learned in my daily work
 
 12. "Design an online payment system."
-
-
-技术选型争论，over-designed
-db denormalization
