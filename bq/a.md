@@ -46,7 +46,7 @@ We’re willing to take risks – innovating requires failing.
     For boss, save a lot of money and time, time is money
 8. "Do you know our CEO? How do you pronounce his name?"  - Jeff Bezos
 9. "Describe what happens in your browser as soon as you hit enter after writing a URL in the address bar."
-  - DNS, url -> ip
+  - DNS, url -> ip, based on location
   - TCP/UDP connection
   - HTTP request
   - server process
@@ -59,17 +59,16 @@ We’re willing to take risks – innovating requires failing.
     combine with my current research, customize recommandation
     not for users, but for engineers, easy to develop, simplify the workflow
 
-25. "Design an online payment system."
-29. "Which Amazon leadership principle do you resonate most with?"
+11. "Which Amazon leadership principle do you resonate/rezəneɪt/ most with?"
     - ownership
-    take risk, try challenging and new
-    Sometimes failure is not a terrible thing, innovation requires failing
-    be responsible for my work, listen to others' opinions
+    willing to take risk, try challenging and new
+    Sometimes failure/ˈfeɪljər/ is not a terrible thing, innovation requires failing
     not working for my boss, but woring for my self
     - learn and be curious
-    keep learning, interested in new technologies
-    read technical blogs every day, infoQ
-    looking for opportunities to try new technologies in my work
+    interested in new technologies, still keep learning, reading blogs everyday
+    look for opportunities to use what I recently learned in my daily work
+
+12. "Design an online payment system."
 
 
 技术选型争论，over-designed

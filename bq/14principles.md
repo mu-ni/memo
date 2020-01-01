@@ -12,17 +12,15 @@ Leaders start with the customer and work backwards. They work vigorously to earn
   consistency between online and offline
 
 - Who was your most difficult customer?
-  no. data scientist, their requirements is more close to customer, reasonable. in production environment, they are more experienced
+  no. data scientist and delivery team
+  their requirements is more close to customer, reasonable. in production environment, they are more experienced
 
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
   Never, before the starting, clarify more than once. Sometimes can not meet all expections, list the priority
 
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
   Can not satisfy all, but satisfy most of users' requirements
-  Pareto principle(80/20 rule) - for many events, about 80% of the effects come from 20% of the causes
-
-- Tell the story of the last time you had to apologize to someone.
-  apologize to QA, for unit tests
+  Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
 
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
@@ -52,7 +50,7 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
   it is a pity, we hope that we can do it this year
 
 - Give me an example of a time when you showed initiative.
-  propose FEDB to deliver teams/data scientist, it works well
+  propose FEDB to delivery teams/data scientist, it works well
   1. let them know our project, promote our project to them, they sopported me a lot
   2. collect requirements and advices from them
   3. let them have a try our project, and try to reduce their workdload and time
@@ -68,9 +66,9 @@ Leaders expect and require innovation and invention from their teams and always 
 - Tell me about a time when you invented something/Tell me a time when you created an innovative product/Most challenging project?
   that is exactly my current project, major contributor
   I started my current project one year ago from scratch
-  idea from my manager, he worked with deliver team for a long time, and know their requirements
+  idea from my manager, he worked with delivery team for a long time, and know their requirements
   last 6 months, only one developer(me), recently, aother 2 developers joined
-  notice that it is hard for deliver team to deliver a model to customer smoothly
+  notice that it is hard for delivery team to deliver a model to customer smoothly
   pyspark - java, cost at least one week for development, with many errors
   We want to develop a system that make model on production without any modification
   we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
@@ -154,7 +152,7 @@ Thinking small is a self-fulfilling prophecy. Leaders create and communicate a b
 - Tell me about your proudest professional achievement.
   FEDB, release to real-time prediction without any modification
   simplify the workflow, save a lot of time and resource
-  already used in 60% of projects within deliver teams
+  already used in 60% of projects within delivery teams
   I felt a strong sense of success/I am so proud of it
   submit a patent about fedb
 
@@ -216,7 +214,7 @@ Leaders operate at all levels, stay connected to the details, audit frequently, 
 - A time working on a project and the results exceeded the goals/Give me two examples of when you did more than what was required in any job experience.
   Current project, from scratch, just an innovation
   innovation project, 50 percent chance to fail. But luckily, we succeed/səkˈsiːd/
-  Help our data scientist and deliver team -> reduce time to deliver
+  Help our data scientist and delivery team -> reduce time to deliver
   use same code(SQL) for batch-compute and realtime-compute
 
 
