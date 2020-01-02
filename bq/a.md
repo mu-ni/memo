@@ -65,13 +65,9 @@ We’re willing to take risks – innovating requires failing.
     not sure it is complexed or not, if have opportunity, simplify the workflow with my knowledge
 
 11. "Which Amazon leadership principle do you resonate/rezəneɪt/ most with?"
-    There are 2 principles
     - ownership
     willing to take risk, try challenging
     not afraid of failure, failure/ˈfeɪljər/ is not a terrible thing, innovation requires failing
     great passion for my work, not working for my boss, but woring for my self
-    - learn and be curious
-    interested in new technologies, still keep learning, reading blogs everyday
-    look for opportunities to use what I recently learned in my daily work
 
 12. "Design an online payment system."
