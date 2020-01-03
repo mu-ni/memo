@@ -30,12 +30,12 @@ Leaders start with the customer and work backwards. They work vigorously to earn
 
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
   Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
-  Can not satisfy all, list the priority, just satisfy the most important requirements
+  Can not satisfy all, just satisfy the most important requirements
+  requirements from data scientist and delivery team, list the priority
+  major bug, block normal workflow, fix firstly
+  potential risks, make DB unsafe, fix secondly
+  user experience, todo list, fix it later
   Don't need to build a perfect product at the beginning, a good product should keep iterating
-  list the priority
-  major bug, block normal process
-  user experience, affect most customers
-  potential risks
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
