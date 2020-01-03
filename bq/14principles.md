@@ -2,6 +2,7 @@ S – Situation - background info
 T – Task - what you had to do
 A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
+TODO：多几个例子
 
 Leadership Principles
 We use our Leadership Principles every day, whether we're discussing ideas for new projects or deciding on the best approach to solving a problem. It is just one of the things that makes Amazon peculiar.
@@ -9,17 +10,19 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 1. Customer Obsession（顾客至上，从客户角度出发获取信任，关注竞争者，但是更关心客户）
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 - Walk us through a time when you helped a customer through a difficult progress
-- STAR
-  For a long time in the past
-  consistency between online and offline
+  S - feature engineering language & memory DB, data stored by time sequence
+      embeded in company-level product, SageOne, deployment env is compliexed, high level of machine performance
+  T - attract more customers
+  A - from scratch, make workflow easier, process both batch&realtime
+  R - Got a lot of new customers, VIVO, Guangfa Bank. Most customers are interested in it
 
 - Who was your most difficult customer?
   no. data scientist and delivery team
-  1. append data to DB one by one and continuously
-  2. map with useless key
-  At the beginning, hard to understand these requirements
-  clarity requirements before starting
-  their requirements are reasonable, more close to customer
+  S - append data to DB one by one and continuously, hard to understand initially
+  T - clarity requirements before starting
+  A - I've been to customers' office several times, DT based in there
+      try to understand real customers' requirements
+  R - their requirements are more reasonable, more close to customer
 
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
   Never, before the starting, clarify the requirement.
@@ -41,45 +44,40 @@ Leaders start with the customer and work backwards. They work vigorously to earn
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
 - Tell me about a time when you had to leave a task unfinished.
   This rarely happens
-  re-organization, transfer project,
-  make sure they are totally understand
-  keep contact, IM chat group
+  S - re-organization
+  T - transfer project to SH
+  A - arrange several workshop, IM chat group, make sure they are totally understand
+  R - currently managed well
 
 - Tell me about a time when you had to work on a project with unclear responsibilities.
-  delta compute, compute once -> continious computation, data generated continuously
-  unclear working scope, waiting for each other,
-  poor task assignment, poor communication
-  developers base in both BJ and SH
-  propose - daily meeting, 5min
-
+  S - latest project, delta compute, compute once -> continious computation, data generated continuously
+  T - 4 people, cooperated to develop
+      base in both BJ and SH, poor communication, waiting for each other
+  A - propose - daily meeting, 5min
+  R - released on time
 
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
-  FEDB
-  Collect information from users
-  Propose at least 2 workable solutions, trade off
-  According to the real production environment, [time first] or space first?
-  prioritize the functions, implement the most important feature first
-  Collect feedbacks from users
+  S - system make ML workflow simple
+  T - more engineers can develop AI application
+  A - collect information from delivery team
+  R - gained a lot of positive feedback
 
 - Give me an example of something you tried to accomplish/took a risk but failed
 - Tell me about a time when you took a calculated risk.
-  don't use long-term value for short-term results
-  not for internal use only, but attract more external developers
-  we want to make a standard for AI application development workflow
-  Last quarter, planed to attract at least 100 developers to use our system
-  But, we have to support many projects firstly, higher priority
-  and we don't have enough energy to promote and operate our product
-  it is a pity, we hope that we can do it this year
+  S - not for internal use only, but attract more external developers
+  T - make a standard for AI application development workflow
+      Last quarter, planed to attract at least 100 developers to use our system
+  A - But, many internal projects need to be supported, higher priority
+      don't have enough energy to promote and operate our product
+  R - it is a pity, we didn't achieve it, hope do it later
 
 - Give me an example of a time when you showed initiative.
   FEQL: like SQL for both batch&realtime feature computing
   RTIDB: time sensitive scenariao
-  initially, just feql, try to simplify the workflow, fedb
-  propose FEDB to delivery teams/data scientist, it works well
-  1. let them know our project, promote our project to them, they supported me a lot
-  2. collect requirements and advices from them
-  3. let them have a try our project, and try to reduce their workload and time
-  4. It works very well current, success innovation
+  S - fedb, based on FEQL & RTIDB
+  T - promote fedb to DS DT, simplify the workflow
+  A - participated in their workshop, requirements & advices
+  R - reduce 60% of workload, more customers
 
 3. Invent and Simplify（创新的发明，寻找简化方法。从任何地方寻找新的想法。在做新的事情时，可以接受一段时间内存在误解）
 Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
