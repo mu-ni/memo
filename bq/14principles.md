@@ -9,7 +9,7 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 1. Customer Obsession（顾客至上，从客户角度出发获取信任，关注竞争者，但是更关心客户）
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 - Walk us through a time when you helped a customer through a difficult progress
--
+- STAR
   For a long time in the past
   consistency between online and offline
 
@@ -17,19 +17,25 @@ Leaders start with the customer and work backwards. They work vigorously to earn
   no. data scientist and delivery team
   1. append data to DB one by one and continuously
   2. map with useless key
-  At the begining, hard to understand these requirerments
-  their requirements is more close to customer, reasonable
+  At the beginning, hard to understand these requirements
+  clarity requirements before starting
+  their requirements are reasonable, more close to customer
 
 - Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
   Never, before the starting, clarify the requirement.
-  Do not just image what it should be, but discuss
+  really understand, without misunderstanding
+  learned from my past experience. Do not just image what it should be, but discuss
   review the progress everyweek/everyday
   Make sure on the correct way, or change the direction as early as possible
 
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
   Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
   Can not satisfy all, list the priority, just satisfy the most important requirements
-  Don't need to build a perfect product at the begining, a good product should keep iterating
+  Don't need to build a perfect product at the beginning, a good product should keep iterating
+  list the priority
+  major bug, block normal process
+  user experience, affect most customers
+  potential risks
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
