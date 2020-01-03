@@ -54,6 +54,7 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
 
 
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
+  FEDB
   Collect information from users
   Propose at least 2 workable solutions, trade off
   According to the real production environment, [time first] or space first?
@@ -72,12 +73,12 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
 
 - Give me an example of a time when you showed initiative.
   FEQL: like SQL for both batch&realtime feature computing
-  RTIDB: time sencitive scenariao
+  RTIDB: time sensitive scenariao
   initially, just feql, try to simplify the workflow, fedb
   propose FEDB to delivery teams/data scientist, it works well
-  1. let them know our project, promote our project to them, they sopported me a lot
+  1. let them know our project, promote our project to them, they supported me a lot
   2. collect requirements and advices from them
-  3. let them have a try our project, and try to reduce their workdload and time
+  3. let them have a try our project, and try to reduce their workload and time
   4. It works very well current, success innovation
 
 3. Invent and Simplify（创新的发明，寻找简化方法。从任何地方寻找新的想法。在做新的事情时，可以接受一段时间内存在误解）
