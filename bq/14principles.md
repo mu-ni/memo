@@ -82,7 +82,7 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
 3. Invent and Simplify（创新的发明，寻找简化方法。从任何地方寻找新的想法。在做新的事情时，可以接受一段时间内存在误解）
 Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
 - Tell me about a time when you gave a simple solution to a complex problem.
-  1. Intellij -> lombok(annotation), fluent style, simple and clear
+  1. lombok, annotation, fluent style, simple and clear
   2. zookeeper retry & timeout: easy to make mistakes -> curator
   3. http -> rpc, grpc/brpc, protobuf
 
@@ -104,10 +104,10 @@ Leaders expect and require innovation and invention from their teams and always 
 Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 - tell me about a time when you are wrong
   Actually, I didn't make serious mistake in my work, But I have learned some lessons
-  just want to fix the specific bug asap, no UT
-  old bugs appear again and again, biggest mistake I've ever made
-  Now I pay more attention to UT, every function shoud have its own ut bofore merge to the main branch
-  With complete UT, fix a bug, don't afraid at all. UT give you complete confidence
+  S - just want to fix the specific bug asap, old bugs appear again and again
+  T - avoid already fixed bugs happening again
+  A - UT, every function should have its own ut before merge to the main branch
+  R - With complete UT, fix a bug, don't afraid at all. UT give us enough confidence
 
   some years ago. I haven't realized the importance of testing.(united tests)
   the result is, when I fix a but and merge the PR, another bug will be found soon
