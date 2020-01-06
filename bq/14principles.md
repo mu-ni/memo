@@ -4,6 +4,12 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 TODO：多几个例子
 
+i18n, 2 set of mapping
+jboss -> spring-boot, new technology
+improve performance: get metadata from zk -> keep in memory
+micro-service -> spring-cloud
+todo: avro & protobuf
+
 Leadership Principles
 We use our Leadership Principles every day, whether we're discussing ideas for new projects or deciding on the best approach to solving a problem. It is just one of the things that makes Amazon peculiar.
 
@@ -105,47 +111,42 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
 - tell me about a time when you are wrong
   Actually, I didn't make serious mistake in my work, But I have learned some lessons
   S - just want to fix the specific bug asap, old bugs appear again and again
+      hard to fix a bug without introduce new bugs
   T - avoid already fixed bugs happening again
   A - UT, every function should have its own ut before merge to the main branch
   R - With complete UT, fix a bug, don't afraid at all. UT give us enough confidence
-
-  some years ago. I haven't realized the importance of testing.(united tests)
-  the result is, when I fix a but and merge the PR, another bug will be found soon
-  At that moment, it is hard to fix a bug without introduce new bugs
-  It is the biggest lesson I've learned during my previous work.
-  After that, no matter how urgent the deadline is, I must write unit tests before the PR
-  I will never allow this to happen again
+      biggest lesson I've learned during my previous work
 
 - tell me about a time when you had to work with incomplete data or information
 - Tell me about a time where you overcame an obstacle and delivered results.
 - Obstacles met during a project
-  research project, kaggle dataset, focus on the workflow
-  how to make ML workflow more simple for developers
-  totally new to it, not too much information about field
-  combine my research result with my current project
-  don't need to care about the details, just focus on their own business logic
+  S - hard to develop AI application, don't know how to start
+  T - make ML workflow more simple for developers
+  A - totally new to it, not enough info about it
+      kaggle dataset, join competition
+  R - use research result in my current project, with clear workflow, easy to develop
+      don't need to care about the details, just focus on their own business logic
 
 
 5. Learn and Be Curious（保持学习，提升自己，对新事物好奇，乐于探索）
 Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.
 - How do you find the time to stay inspired, acquire new knowledge, innovate in your work?
-  innovation is a part of my work, IEG- innovating engineering group
-  logical regression/random forest
-  async call, completableFuture(jdk8)
-  infoQ, blogs
-  redis
-  CICD embeded with gitlab
-  high quality/performance code
+  S - innovation is a part of my work, IEG- innovating engineering group
+  A - logical regression/random forest
+      async call, completableFuture(jdk8)
+      redis
+      CICD embeded with gitlab
+      high quality/performance code
 
 
 6. Hire and Develop the Best（善于发现人才，指导他人）
 Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.
 - Tell me about a time when you mentored/coached someone.
-  We have one fresh-graduate colleague in our team, I am his mentor
-  Firstly, his code is just like demo code, not production.
-  workable but variable names are very poor, and no UT for his functions
-  code review for every function & recommand some useful plugins for him, lombok
-  Now his code looks better
+  S - one fresh-graduate colleague in our team, I am his mentor
+      code quality is not good enough, demo ok, not production.
+      variable naming, all codes in same function, no UT
+  A - code review & recommand some useful plugins for him, lombok
+  R - his code looks better now
 
 - Sometimes when teammates are not "qualified"
 - Tell me about a time when you had to deal with a poor performer on your team.
@@ -154,29 +155,28 @@ Leaders raise the performance bar with every hire and promotion. They recognize 
   not just coding without any preparation
   Everyone has his own strengths and weak points, put him in the suitable place
 
-- Give me an example of a time when you motivated others.
-  fresh-graduate colleague in our team, I am his mentor
-  he is not confident with himself
-  He doesn't want to try any complex tasks, just does easy task
-  I guide him to have a try, share knowledge with him
+- Give me an example of a time when you motivated others.激发灵感，激发动力
+  not by myself, motivated each other
+  workshop for sharing ideas, daily meeting
+  most of good ideas come from brainstrom
 
 7. Insist on the Highest Standards（坚持最高标准，交付高质量产品）
 Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
 - Tell me about a time when you could have stopped working but persisted.
-  After the system works, improve performance
+  workable -> improve performance
   1. Access zk node -> keep in memory, init form zk, reduce zk access, reduce the stress of zk
-  2. Two options, sync call&Async call, completableFuture, jdk8
+  2. Async call, completableFuture, jdk8
 
 - Tell me about a time when you couldn’t meet your own expectations on a project.
   time or quality?
-  keep high standard, deliver not only workable, but stable product
+  time - internship, afraid to talk with others, missed deadline
+  quality - depends on time. if urgent, delivery important than quality
 
 - Tell me about a time when a team member didn’t meet your expectations on a project.
-  progress or his quality?
+  progress or quality?
   no, keep in touch, follow his progress
   can't not finished is acceptable, re-calculate the workflow
-  can't stand anyone told me he cannot finish at the last minute
-  for quality - more suitable tasks
+  Not say cannot finish at the last minute
 
 8. Think Big（大胆思考，激发成果）
 Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.

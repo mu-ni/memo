@@ -5,7 +5,7 @@ vi conf/zoo.cfg
 2. 启动注册中心
 ~~~
 sh bin/zkServer.sh start
-sh zkServer.sh status
+sh bin/zkServer.sh status
 sh bin/zkServer.sh stop
 ~~~
 3. 启动客户端
