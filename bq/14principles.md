@@ -138,7 +138,7 @@ Leaders are never done learning and always seek to improve themselves. They are 
   high quality/performance code
 
 
-6. Hire and Develop the Best（善于发现人才，指导他人）
+6. //Hire and Develop the Best（善于发现人才，指导他人）
 Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.
 - Tell me about a time when you mentored/coached someone.
   We have one fresh-graduate colleague in our team, I am his mentor
@@ -217,7 +217,7 @@ Speed matters in business. Many decisions and actions are reversible and do not 
   don't just wait for his response, book a short time of him, 10mins, for asking questions
 
 
-10. Frugality（争取事半功倍）
+10. //Frugality（争取事半功倍）
 Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
 - Tell me about a time where you thought of a clever new way to save money for the company.
   fedb, online-offline consistency
