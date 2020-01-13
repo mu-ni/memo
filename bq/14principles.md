@@ -82,8 +82,9 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
   S - not for internal use only, but attract more external developers
   T - make a standard for AI application development workflow
       Last quarter, planed to attract at least 100 developers to use our system
-  A - But, many internal projects need to be supported, higher priority
-      don't have enough energy to promote and operate our product
+  A - But, feedback from delivery team is very well
+      many internal projects need to be supported, higher priority
+      don't have enough resource to promote and operate our product
       projects we need to supported are more than our expection
   R - it is a pity, we didn't achieve it, hope do it later
 
