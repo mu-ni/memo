@@ -72,10 +72,10 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
   R - released on time
 
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
-  S - system make ML workflow simple
-  T - more engineers can develop AI application
-  A - collect information from delivery team
-  R - gained a lot of positive feedback
+  S - research is a part of my work
+  T - make ML workflow simple, more engineers can develop AI applications
+  A - kaggle, dataset&competitions, collect information from delivery team
+  R - Logistic regression&Random forest, gained a lot of positive feedback
 
 - Give me an example of something you tried to accomplish/took a risk but failed
 - Tell me about a time when you took a calculated risk.
@@ -84,6 +84,7 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
       Last quarter, planed to attract at least 100 developers to use our system
   A - But, many internal projects need to be supported, higher priority
       don't have enough energy to promote and operate our product
+      projects we need to supported are more than our expection
   R - it is a pity, we didn't achieve it, hope do it later
 
 - Give me an example of a time when you showed initiative.
