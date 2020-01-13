@@ -4,6 +4,12 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 TODO：多几个例子
 
+FEDB
+delta-compute
+workflow research, kaggle
+UT
+useless map keys
+
 i18n, 2 set of mapping
 jboss -> spring-boot, new technology
 improve performance: get metadata from zk -> keep in memory
@@ -42,6 +48,8 @@ Leaders start with the customer and work backwards. They work vigorously to earn
   Can not satisfy all, just satisfy the most important requirements
   requirements from data scientist and delivery team, list the priority
   same priority, first do task with less risks
+  develop -> main function first, then user experience improvement
+             less risks first, complex task later, not block QA test
   major bug, block normal workflow, fix firstly
   potential risks, make DB unsafe, fix secondly
   user experience, todo list, fix it later
