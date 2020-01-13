@@ -35,6 +35,7 @@ Leaders start with the customer and work backwards. They work vigorously to earn
   Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
   Can not satisfy all, just satisfy the most important requirements
   requirements from data scientist and delivery team, list the priority
+  same priority, first do task with less risks
   major bug, block normal workflow, fix firstly
   potential risks, make DB unsafe, fix secondly
   user experience, todo list, fix it later
@@ -134,7 +135,7 @@ Leaders are never done learning and always seek to improve themselves. They are 
   async call, completableFuture(jdk8)
   infoQ, blogs
   redis
-  CICD embeded with gitlab
+  CICD embedded with gitlab
   high quality/performance code
 
 
@@ -192,6 +193,7 @@ Thinking small is a self-fulfilling prophecy. Leaders create and communicate a b
   submit a patent about fedb
 
 - Tell me about a time when you went way beyond the scope of the project and delivered.
+  improve performance, async
   Not limited by customers' requirements, sometimes customers are not clear what they want
   Sometimes the progress is complex, but they are already used to this progress
   We will give them one more choice and let them know there is another progress which is more simple and clear
@@ -206,6 +208,7 @@ Speed matters in business. Many decisions and actions are reversible and do not 
   IM chat group, help each other
 
 - Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
+  try to collection feedback from users, I am the owner of this project
   don't think just start doing by myslef is a good choice, maybe it is by design
   should discuss first, if really necessary and I’d like to fix this problem
   QPS is hight, fix code not thread safe, add locks
@@ -262,7 +265,9 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
 
 - Tell me about a time when you had to step up and disagree with a team members approach.
   1. framework, over-designed - native code, not import unnecessary dependencies, not make project complicates
+     cron job, expression or framework
   2. db denormalization, get result quickly - redundant data
+     user's courses, join search or just save to user table as a list
 
 - If your direct manager was instructing you to do something you disagreed with, how would you handle it?
   Although most of time he is correct
@@ -276,18 +281,13 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
 14. Deliver Results（按时交付高质量产品，遇到挫折挺身而出，对产品有追求，不满足于现状）
 Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
 - What is the most difficult situation you have ever faced in your life? How did you handle it?
-  to be honest, I don't have real difficult situation in my life, but confused situation
-  before my graduation 4 years ago. Not sure working in paris or BJ
-  technologies in china developed very fast
-  I'd like to learn more and improve myself when I was young, so started first job in china
-  But now, already 4 years, try sth challenging and new
-  I am curious about the working atmosphere in great global companies, like amazon
-  so today I am here
+  fix a simple bug, 2 weeks, UT
 
 - By providing an example, tell me when you have had to handle a variety of assignments任务. Describe the results.
-- Tell me about a time when you had to work with limited time or resources.
   list priority
   pareto principle
+- Tell me about a time when you had to work with limited time or resources.
+  ML workflow research, kaggle, data scientist
 
 - Couldn’t finish tasks before deadline?
   Never happened in recent years
@@ -297,3 +297,4 @@ Leaders focus on the key inputs for their business and deliver them with the rig
   Now, daily work plan and todo list
   I can estimate the workload very well
   This situation will never happen again
+  if really, tell PM as early as possible, reschedule the workload
