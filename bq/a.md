@@ -70,4 +70,11 @@ We’re willing to take risks – innovating requires failing.
     not afraid of failure, failure/ˈfeɪljər/ is not a terrible thing, innovation requires failing
     great passion for my work, not working for my boss, but woring for my self
 
-12. "Design an online payment system."
+12. biggest failure
+    fixed a very simple bug in almost 2 weeks
+    parse parquet file content, anxious
+    terrible situation is when I fixed this bug, another new bug will appear
+    a very simple bug lead out a series of new bugs, and they happened again and again
+    first reason is, not familiar with patquet
+    main reason is, no complete UT
+    make sure the bugs already be fixed will not appear again

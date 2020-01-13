@@ -18,7 +18,7 @@ Leaders start with the customer and work backwards. They work vigorously to earn
 
 - Who was your most difficult customer?
   no. data scientist and delivery team
-  S - append data to DB one by one and continuously, hard to understand initially
+  S - input map with many useless keys, hard to understand initially
   T - clarity requirements before starting
   A - I've been to customers' office several times, DT based in there
       try to understand real customers' requirements
