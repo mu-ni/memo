@@ -91,7 +91,7 @@ Leaders expect and require innovation and invention from their teams and always 
 - Most challenging project?
   that is exactly my current project, major contributor
   I started my current project one year ago from scratch
-  idea from my manager, he worked with delivery team for a long time, and know their requirements
+  idea from delivery team
   last 6 months, only one developer(me), recently, aother 2 developers joined
   notice that it is hard for delivery team to deliver a model to customer smoothly
   pyspark - java, cost at least one week for development, with many errors
