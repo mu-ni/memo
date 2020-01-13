@@ -22,11 +22,11 @@ We use our Leadership Principles every day, whether we're discussing ideas for n
 1. Customer Obsession（顾客至上，从客户角度出发获取信任，关注竞争者，但是更关心客户）
 Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 - Walk us through a time when you helped a customer through a difficult progress
-  S - feature engineering language & memory DB, data stored by time sequence
-      embeded in company-level product, SageOne, deployment env is compliexed, high level of machine performance
-  T - attract more customers
-  A - from scratch, make workflow easier, process both batch&realtime
-  R - Got a lot of new customers, VIVO, Guangfa Bank. Most customers are interested in it
+  S - hard to deliver model, translate/develop ML application
+      2 main projects in our team, FEQL&RTIDB
+  T - FEDB, system based on FE&DB, simplify ML workflow
+  A - from scratch, manage data, support both batch&realtime
+  R - 40% delivery projects are using FEDB, Patent
 
 - Who was your most difficult customer?
   no. data scientist and delivery team
