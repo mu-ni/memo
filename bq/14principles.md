@@ -8,7 +8,7 @@ TODO：多几个例子
 FEDB
 delta-compute
 workflow research, kaggle
-UT
+UT, regression tests
 useless map keys
 single node -> docker -> cluster -> get metadata from zk -> keep in memory
 pressure test -> performance improve
@@ -125,13 +125,13 @@ Leaders expect and require innovation and invention from their teams and always 
 4. Are Right, A Lot（领导者有更强的判断力和直觉，接受不同的观点）
 Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 - tell me about a time when you are wrong
-  Actually, I didn't make serious mistake in my work, But I have learned some lessons
+  biggesr lesson I have learned, UT
   S - just want to fix the specific bug asap, old bugs appear again and again
       hard to fix a bug without leading out new bugs
   T - avoid already fixed bugs happening again
-  A - UT, every function should have its own ut before merge to the main branch
-  R - With complete UT, fix a bug, don't afraid at all. UT give us enough confidence
-      biggest lesson I've learned during my previous work
+  A - UT, every function should have its own ut before release
+  R - With complete UT, fix a bug, confidence
+      biggest lesson I've learned during my previous experience
       Although deadline is urgent, still provide completable UT before releasing, avoid future mistakes
 
 - tell me about a time when you had to work with incomplete data or information
@@ -164,6 +164,7 @@ Leaders raise the performance bar with every hire and promotion. They recognize 
       variable naming, all codes in same function, no UT
   A - code review & recommand some useful plugins for him, lombok
   R - his code looks better now
+      Unit tests and code review
 
 - Sometimes when teammates are not "qualified"
 - Tell me about a time when you had to deal with a poor performer on your team.
@@ -174,6 +175,7 @@ Leaders raise the performance bar with every hire and promotion. They recognize 
 
 - Give me an example of a time when you motivated others.激发灵感，激发动力
   not by myself, motivated each other
+  knowledge sharing workshop every month, engineer culture
   workshop for sharing ideas, daily meeting
   most of good ideas come from brainstrom
 
@@ -185,7 +187,7 @@ Leaders have relentlessly high standards — many people may think these standar
   2. Async call, completableFuture, jdk8
 
 - Tell me about a time when you couldn’t meet your own expectations on a project.
-  time or quality?
+  it depends, trade off time & quality
   time - internship, afraid to talk with others, missed deadline
   quality - depends on time. if urgent, delivery important than quality
 
@@ -209,7 +211,7 @@ Thinking small is a self-fulfilling prophecy. Leaders create and communicate a b
   submit a patent about fedb
 
 - Tell me about a time when you went way beyond the scope of the project and delivered.
-  improve performance, async
+  improve performance, async, socket layer
   Not limited by customers' requirements, sometimes customers are not clear what they want
   Sometimes the progress is complex, but they are already used to this progress
   We will give them one more choice and let them know there is another progress which is more simple and clear
@@ -221,9 +223,11 @@ Speed matters in business. Many decisions and actions are reversible and do not 
 - Describe how you would handle a busy situation where three people are waiting for help from you.
   list the priority, calcutate risk in advance, try to minimize the risk
   If someone is waiting for me, I'll do it first, try not to block others work
+  ask them research by themselves first, prepare in advance, save our time
   IM chat group, help each other
 
 - Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
+  owner or others, todo list
   try to collection feedback from users, I am the owner of this project
   don't think just start doing by myslef is a good choice, maybe it is by design
   should discuss first, if really necessary and I’d like to fix this problem
@@ -233,6 +237,7 @@ Speed matters in business. Many decisions and actions are reversible and do not 
 - Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
   Maybe he is busy in sth, do not disturb his progress
   prepare enough by myself before, do not ask stupid questions
+  efficient meeting, no more than 2 hours
   don't just wait for his response, book a short time of him, 10mins, for asking questions
 
 
@@ -242,6 +247,7 @@ Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, 
   fedb, online-offline consistency
 
 - Tell me about a time when you delegated a project effectively.高效上线项目
+  project management
   Assign tasks properly
   communication is very important
   review progress everyday
@@ -251,19 +257,25 @@ Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, 
 11. Earn Trust（获取信任，乐于倾听，尊重他人，多从自身找原因）
 Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best.
 - Tell me a time when you earned trust of a group.
+  not distrust, just not familiar with each other
   joined this team firstly, we don't know each others background
-  propose monthly knowledge sharing workshop, know others technical background soon, earn trust from each other
+  knowledge sharing workshop, engineer culture, know others technical background soon, earn trust from each other
 
 12. Dive Deep（关注细节，及时review，及早发现）
 Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
 - Tell me about a time when you had to dive deep into the data and the results you achieved.
-  ML workflow research, not much tutorials about this
-  kaggle, dataset, participated in competations
-  product - fedb, every engineer can build an AI application in one day
+  read source code, hadoop-parquet,
+  code review, approver, trust me, find hard to detect bugs
+  connection release(try with resource)
+  remove useless code, code clean & readable, lombok
+  performance related, reuse threads
+  provide suggestions to refactor code
+  female engineer, more sensitive to details
+
 
 - A time working on a project and the results exceeded the goals
 - Give me two examples of when you did more than what was required in any job experience.
-  Current project, from scratch, just an innovation
+  Current project, from scratch, just an innovation, workable -> improve performance
   innovation project, 50 percent chance to fail. But luckily, we succeed/səkˈsiːd/
   Help our data scientist and delivery team -> reduce time to deliver
   use same code(SQL) for batch-compute and realtime-compute
@@ -275,8 +287,11 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
 - Tell me about the most difficult interaction互动 you had at work.
 - Tell me about a time when you did not accept the status quo现状.
   previous work, after reorganization, colleagues don't accept new technologies
+  in our field, technologies develop very fast, 5 years -> out of date
   I try to share latest knowledge with them but it seems they are not interested
-  I discuss my ideas with my manager, he support me a lot
+  I discuss my ideas with my manager, firstly not understand
+  try my best to convince him, hard now, but easier in the future
+  finally he accepted mu suggestions, and support me a lot during that project
   We can use popular technologies in new project(jboss - spring-boot)
 
 - Tell me about a time when you had to step up and disagree with a team members approach.
@@ -284,15 +299,19 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
      cron job, expression or framework
   2. db denormalization, get result quickly - redundant data
      user's courses, join search or just save to user table as a list
+  3. traditional or new technologies?
+     they are familiar with traditional, hard to maintain, community is inactive
+     but I prefer trying new technologies, challenging, community is active, easy to find solution
+     Nether of us is wrong, different point of view, trade off
 
 - If your direct manager was instructing you to do something you disagreed with, how would you handle it?
-  Although most of time he is correct
   I will discuss with him firstly before I staring to do
+  understanding his ideas, exchange our ideas
   Normally both of us are correct, Just because we have different points of view
+  same goal, and I am sure we will reach an agreement on at least one aspect
+  We should start from this point and try to reach the final agreement
   It is normal that people have disagreements
   the most important thing is listen carefully to his opinions and share my opinions with him
-  Because our goals are the same, and I am sure we will reach an agreement on at least one point
-  We should start from this point and try to reach the final agreement
 
 14. Deliver Results（按时交付高质量产品，遇到挫折挺身而出，对产品有追求，不满足于现状）
 Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
@@ -303,6 +322,7 @@ Leaders focus on the key inputs for their business and deliver them with the rig
   list priority
   pareto principle
 - Tell me about a time when you had to work with limited time or resources.
+  todo list
   ML workflow research, kaggle, data scientist
 
 - Couldn’t finish tasks before deadline?

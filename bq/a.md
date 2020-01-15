@@ -68,6 +68,7 @@ We’re willing to take risks – innovating requires failing.
     - ownership
     willing to take risk, try challenging
     not afraid of failure, failure/ˈfeɪljər/ is not a terrible thing, innovation requires failing
+    although failed this time, learned a lot of valuable lessons, more close to success next time
     great passion for my work, not working for my boss, but woring for my self
 
 12. biggest failure
