@@ -4,16 +4,17 @@ A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
 TODO：多几个例子
 
+1 + 4 + 3
 FEDB
 delta-compute
 workflow research, kaggle
 UT
 useless map keys
-
-i18n, 2 set of mapping
-jboss -> spring-boot, new technology
-improve performance: get metadata from zk -> keep in memory
-micro-service -> spring-cloud
+single node -> docker -> cluster -> get metadata from zk -> keep in memory
+pressure test -> performance improve
+nginx -> zk
+CICD
+async API
 todo: avro & protobuf
 
 Leadership Principles
@@ -27,6 +28,7 @@ Leaders start with the customer and work backwards. They work vigorously to earn
   T - FEDB, system based on FE&DB, simplify ML workflow
   A - from scratch, manage data, support both batch&realtime
   R - 40% delivery projects are using FEDB, Patent
+      promoted as a new core project in our company
 
 - Who was your most difficult customer?
   no. data scientist and delivery team
@@ -46,14 +48,10 @@ Leaders start with the customer and work backwards. They work vigorously to earn
 - When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
   Pareto principle(80/20 rule) - for many events, about 80% of the results come from 20% of the decisions
   Can not satisfy all, just satisfy the most important requirements
-  requirements from data scientist and delivery team, list the priority
-  same priority, first do task with less risks
-  develop -> main function first, then user experience improvement
-             less risks first, complex task later, not block QA test
-  major bug, block normal workflow, fix firstly
-  potential risks, make DB unsafe, fix secondly
-  user experience, todo list, fix it later
-  Don't need to build a perfect product at the beginning, a good product should keep iterating
+  requirements from data scientist and delivery team
+  * main function first, then user experience improvement
+  * simple task with less risks first, complex task later, not block QA test progress
+  Impossible perfect product at the beginning, keep iterating, list the priority
 
 2. Ownership（目光长远，不为短期结果牺牲长期价值，从不说”那不是我的工作”）
 Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job."
@@ -65,24 +63,28 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
   R - currently managed well
 
 - Tell me about a time when you had to work on a project with unclear responsibilities.
+  teamwork
   S - latest project, delta compute, compute once -> continious computation, data generated continuously
   T - 4 people, cooperated to develop
       base in both BJ and SH, poor communication, waiting for each other
   A - propose - daily meeting, 5min
-  R - released on time
+  R - released beta version on time
 
 - Tell me a challenge you had where the best way forward was not clear cut. How did you decide what to do?
   S - research is a part of my work
   T - make ML workflow simple, more engineers can develop AI applications
-  A - kaggle, dataset&competitions, collect information from delivery team
+  A - collect information from delivery team & data scientist
+      kaggle, dataset&competitions
+      avocado price prediction, hotel recommendation
   R - Logistic regression&Random forest, gained a lot of positive feedback
 
 - Give me an example of something you tried to accomplish/took a risk but failed
 - Tell me about a time when you took a calculated risk.
-  S - not for internal use only, but attract more external developers
+  S - not for internal use only, but attract more external developers, open source
   T - make a standard for AI application development workflow
-      Last quarter, planed to attract at least 100 developers to use our system
-  A - But, feedback from delivery team is very well
+      Second half of last year, planed to attract at least 100 developers to use our system
+      challenging, first open source project, no experience of operarion & promotion
+  A - But, feedback from delivery team is very well, exceed our initial expection
       many internal projects need to be supported, higher priority
       don't have enough resource to promote and operate our product
       projects we need to supported are more than our expection
@@ -91,30 +93,33 @@ Leaders are owners. They think long term and don’t sacrifice long-term value f
 - Give me an example of a time when you showed initiative.
   FEQL: like SQL for both batch&realtime feature computing
   RTIDB: time sensitive scenariao
+  proposed a lot of features, collect from DL & DT
+  research popular technologies, ZK, HDFS, SPARK, YARN, still keep learning
   S - fedb, based on FEQL & RTIDB
   T - promote fedb to DS DT, simplify the workflow
   A - participated in their workshop, requirements & advices
-  R - reduce 60% of workload, more customers
+  R - reduce 70% of workload, so proud of this project
 
 3. Invent and Simplify（创新的发明，寻找简化方法。从任何地方寻找新的想法。在做新的事情时，可以接受一段时间内存在误解）
 Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
 - Tell me about a time when you gave a simple solution to a complex problem.
+  read tech news every day, stackoverflow
   1. lombok, annotation, fluent style, simple and clear
   2. zookeeper retry & timeout: easy to make mistakes -> curator
-  3. http -> rpc, grpc/brpc, protobuf
+  3. http -> rpc, JSON, avro, protobuf
 
 - Tell me about a time when you invented something
 - Tell me a time when you created an innovative product
 - Most challenging project?
   that is exactly my current project, major contributor
   I started my current project one year ago from scratch
-  idea from delivery team
+  before, 2 main projects in our team, fe&rtidb, embeded in huge system, expensive
   last 6 months, only one developer(me), recently, aother 2 developers joined
-  notice that it is hard for delivery team to deliver a model to customer smoothly
-  pyspark - java, cost at least one week for development, with many errors
-  We want to develop a system that make model on production without any modification
+  make ML workflow more simple for developers
   we schedule some workshops for sharing our ideas with data scientist and collect opinions from them
-  Keep constraints - can not develop a product perfectly at the first version - keep iteration
+  DTs working in customer office, visited them several times
+  how they are working with customers, real requirements from customers
+  still not perfect, can not develop a product perfectly at the first version - keep iteration
 
 
 4. Are Right, A Lot（领导者有更强的判断力和直觉，接受不同的观点）
@@ -122,11 +127,12 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
 - tell me about a time when you are wrong
   Actually, I didn't make serious mistake in my work, But I have learned some lessons
   S - just want to fix the specific bug asap, old bugs appear again and again
-      hard to fix a bug without introduce new bugs
+      hard to fix a bug without leading out new bugs
   T - avoid already fixed bugs happening again
   A - UT, every function should have its own ut before merge to the main branch
   R - With complete UT, fix a bug, don't afraid at all. UT give us enough confidence
       biggest lesson I've learned during my previous work
+      Although deadline is urgent, still provide completable UT before releasing, avoid future mistakes
 
 - tell me about a time when you had to work with incomplete data or information
 - Tell me about a time where you overcame an obstacle and delivered results.
