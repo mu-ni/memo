@@ -2,20 +2,6 @@ S – Situation - background info
 T – Task - what you had to do
 A – Activity - what you did - this should be the longest part of the answer
 R – Results - positive; quantifiable; what you learned; what you would do differently next time
-TODO：多几个例子
-
-1 + 4 + 3
-FEDB
-delta-compute
-workflow research, kaggle
-UT, regression tests
-useless map keys
-single node -> docker -> cluster -> get metadata from zk -> keep in memory
-pressure test -> performance improve
-nginx -> zk
-CICD
-async API
-todo: avro & protobuf
 
 Leadership Principles
 We use our Leadership Principles every day, whether we're discussing ideas for new projects or deciding on the best approach to solving a problem. It is just one of the things that makes Amazon peculiar.
@@ -27,7 +13,9 @@ Leaders start with the customer and work backwards. They work vigorously to earn
       2 main projects in our team, FEQL&RTIDB
   T - FEDB, system based on FE&DB, simplify ML workflow
   A - from scratch, manage data, support both batch&realtime
-  R - 40% delivery projects are using FEDB, Patent
+  R - 40% delivery projects are using FEDB
+      Patent
+      single node -> docker -> cluster
       promoted as a new core project in our company
 
 - Who was your most difficult customer?
@@ -132,7 +120,7 @@ Leaders are right a lot. They have strong judgment and good instincts. They seek
   A - UT, every function should have its own ut before release
   R - With complete UT, fix a bug, confidence
       biggest lesson I've learned during my previous experience
-      Although deadline is urgent, still provide completable UT before releasing, avoid future mistakes
+      Although deadline is urgent, run all uts for regression test before releasing, avoid future mistakes
 
 - tell me about a time when you had to work with incomplete data or information
 - Tell me about a time where you overcame an obstacle and delivered results.
