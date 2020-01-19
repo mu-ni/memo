@@ -301,6 +301,9 @@ Leaders are obligated to respectfully challenge decisions when they disagree, ev
   It is normal that people have disagreements
   the most important thing is listen carefully to his opinions and share my opinions with him
 
+  FEQL in ZK or RT-ENGINE local, diff RE diff FEQL, reduce ZK QPS
+  Curator, timeout & retry. No one familiar, but many discussions in SOF(stackoverflow)
+
 14. Deliver Results（按时交付高质量产品，遇到挫折挺身而出，对产品有追求，不满足于现状）
 Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
 - What is the most difficult situation you have ever faced in your life? How did you handle it?
