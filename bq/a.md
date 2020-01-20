@@ -1,19 +1,15 @@
 1. Why amazon?
-    * greatest company, thousands of customers, very attractive for every engineer
-    * the culture of Amazon attracts me a lot(be owners and innovators)
-      willing to take risks, sometimes failure is necessary for innovations
-    * many talented engineers are working here, work with them, improve my self
+    * greatest company, thousands of customers, attractive for every engineer
+    * the culture of Amazon attracts me a lot, learned 14 principles, agree with it
+      (be owners and innovators)
+    * many talented engineers are working here, work with them
+      develop to better products together, improve my self
 
-2. Why this position in Vancouver/why this role in this company in this specific area
+2. Why this position?
     * aws(Amazon S3 - Simple Storage Service) in my previous project
-      developer friendly API, easy to develop, maintain and monitor
-      curious about how it works, interested in AWS
-    * already worked in BJ 4 years, learnd a lot, It's time to try sth more challenging
+      friendly API, clear monitor UI
+      interested in how it works
     * hiring event, I immediately decided to participate and complete the OA the next day
-
-
-3. How about the OA
-    not too difficult for me, join the weekly contest every week
 
 * Amazon culture
 Our Leadership Principles empower us to
@@ -23,24 +19,32 @@ We’re willing to take risks – innovating requires failing.
 
 
 4. List three strengths
-  - My daily work is well planned, todo list by priority, methodical engineer
-  - Willing to learn new technologies, share knowledge with others
-    workshop since last year, build engineer culture, so they support me a lot
-    spring-boot, curator
-  - As Female engineer, very sensitive to details
-    usually easier to find Hard-to-detect bugs, involved in many code reviews within my team
-    class loading sequence in classpath, maven dependency tree
+  - as female engineer, sensitive to details
+    involved in all code reviews, thanks for their trust
+  - curious about new technologies, would like to share
+    organized several workshop, feedback is good
+  - daily work is well planned, todo list by priority
+    never make myself busy at the last moment
 
-5. Introduce yourself, introduce projects(难点，克服，个人贡献)
-  - My name is muni. I am an engineer with four years experience
-  - working at 4pd as r&d engineer
-  - server-side development and ML workflow research
+
+topics:
+    - zookeeper&curator
+    - protobuffer&RPC
+    - Spark&Yarn
+    - InMEM DB, Write-Ahead Logging, Sharding&Tablet, Replica
+
+bugs:
+    - class loading sequence, maven dependency tree
+    - volatile, not atomic operation, high concurrency, NPE
+    - high concurrency, CPU usage rage high, store in MEM not get from ZK
+    - open file, not close stream in time, unnecessary sockets in MEM -> try with resource
+    -
 
 6. What I want to improve most
-  - hard to reject others, hard to say no
-  - Actually, I'd like to help others, but sometimes it takes me a lot of time
-  - I have daily work plan every day, it will disrupt my working process
-  - IM（Instant messaging）chat group, every one can ask and answer questions in this group
+  - hard to refuse others, W-L balance important for me,
+  - urgent for project delivery
+  - call on weekend, urgent ok, but simple question, stackoverflow
+  - next time, ask them to search by themselves first
 
 7. "How would you introduce AWS in an elevator pitch?"
     PAAS - Platform as a Service, Build your project env quickly
@@ -69,7 +73,7 @@ We’re willing to take risks – innovating requires failing.
     willing to take risk, try challenging
     not afraid of failure, failure/ˈfeɪljər/ is not a terrible thing, innovation requires failing
     although failed this time, learned a lot of valuable lessons, more close to success next time
-    great passion for my work, not working for my boss, but woring for my self
+    great passion for my work, not working for my boss, but working for my self
 
 12. biggest failure
     spent almost 2 weeks to fix a very simple bug
