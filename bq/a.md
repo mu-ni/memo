@@ -26,6 +26,7 @@ We’re willing to take risks – innovating requires failing.
   - daily work is well planned, todo list by priority
     never make myself busy at the last moment
 
+Lombok: scope provided(compile+test)
 
 topics:
     - zookeeper&curator
@@ -38,11 +39,18 @@ bugs:
     - volatile, not atomic operation, high concurrency, NPE
     - high concurrency, CPU usage rage high, store in MEM not get from ZK
     - open file, not close stream in time, unnecessary sockets in MEM -> try with resource
+    - Spark schema infer, Date not supported, but timestamp
+
+todo:
+    - avro&protobuffer
     -
 
-6. What I want to improve most
-  - hard to refuse others, W-L balance important for me,
-  - urgent for project delivery
+tradeoff:
+    - popular or farmiliar
+    -
+
+6. What I want to improve most/weakness
+  - hard to refuse others, W-L balance important
   - call on weekend, urgent ok, but simple question, stackoverflow
   - next time, ask them to search by themselves first
 
@@ -84,3 +92,9 @@ bugs:
     main reason is, no complete UT
     make sure the bugs already be fixed will not appear again
     Original functions are still work well
+
+13. difficult situation
+    - so many functions to do
+    - list priority, core function first
+    - first customer, feedback
+    - not necessary cache, different request & in mem DB
